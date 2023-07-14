@@ -28,7 +28,7 @@ To use the NBomber Prometheus Sink, follow these steps:
 
 4. Run your load test.
 
-For more details on configuring and using the NBomber Prometheus Sink, refer to the [samples](link-to-documentation).
+For more details on configuring and using the NBomber Prometheus Sink, refer to the [samples](samples).
 
 ## Code Samples
 
@@ -49,7 +49,7 @@ NBomberRunner
     .Run()
 ```
 
-For more code samples and examples, please refer to the [samples](link-to-documentation) directory.
+For more code samples and examples, please refer to the [samples](samples) directory.
 
 # How it works
 
