@@ -51,7 +51,7 @@ NBomberRunner
 
 For more code samples and examples, please refer to the [samples](samples) directory.
 
-# How it works
+## How it works
 
 NBomber.Sinks.Prometheus utilizes [OpenTelemetry.Exporter.Prometheus.HttpListener](https://github.com/open-telemetry/opentelemetry-dotnet/tree/main/src/OpenTelemetry.Exporter.Prometheus.HttpListener) to export metrics.
 During the execution of your load test, the sink creates an HttpListener instance that listens on the `http://localhost:9464/metrics` endpoint by default.
