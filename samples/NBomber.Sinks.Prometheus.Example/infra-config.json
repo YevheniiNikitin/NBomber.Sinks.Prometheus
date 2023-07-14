@@ -1,0 +1,18 @@
+{
+  "PrometheusSink": {
+    "HttpListenerPrefixes": [
+      "http://localhost:9500"
+    ],
+    "ScrapeEndpointPath": "/custom_mentrics_endpoint",
+    "CustomTags": [
+      {
+        "Key": "Environment",
+        "Value": "Local"
+      },
+      {
+        "Key": "Mode",
+        "Value": "Debug"
+      }
+    ]
+  }
+}
